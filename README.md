@@ -274,7 +274,7 @@ def train_test_split(data, WINDOW):
     train = stock_prices.iloc[:-WINDOW]
     test = stock_prices.iloc[-WINDOW:]
     
-    return train, test
+    return train, tet
 #-------------------------------------------------------------------------------------------------------------
 #-------------------------------------------------------------------------------------------------------------
 def train_validation_split(train, percentage):
